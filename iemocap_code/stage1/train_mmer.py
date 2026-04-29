@@ -3,12 +3,6 @@
 MMER训练脚本 - 5-Fold交叉验证 (使用测试集作为验证集)
 基于Wav2Vec2 + RoBERTa的多模态情感识别
 
-与train_mmer.py的区别：
-- 不从训练集中划分验证集
-- 直接使用测试集作为验证集
-- 训练集使用全部4个session的数据
-"""
-
 import os
 import torch
 import torch.nn as nn
