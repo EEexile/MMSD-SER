@@ -9,9 +9,7 @@ import torch.nn.functional as F
 from transformers import Wav2Vec2Model, RobertaModel
 from collections import OrderedDict
 import math
-# 选择对比学习模块:
-# - CrossModalContrastiveLearning: 完整三元对比学习（推荐）
-# - SimpleContrastiveLearning: 简单音频-文本对比（轻量级）
+
 from contrastive_module import SimpleContrastiveLearning
 
 
