@@ -1,0 +1,9 @@
+torch
+torchaudio
+transformers
+pandas
+numpy
+scikit-learn
+tqdm
+soundfile
+requests
