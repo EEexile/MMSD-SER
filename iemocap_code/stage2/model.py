@@ -1,6 +1,5 @@
 # model.py
 """
-MMED: Multimodal Multi-task Learning for Speech Emotion Recognition
 基于Wav2Vec2和RoBERTa的多模态情感识别模型
 【加入：回译文本单模态对比正则 (Text-BT CL)】
 """
