@@ -1,8 +1,4 @@
 # model.py
-"""
-MMER: Multimodal Multi-task Learning for Speech Emotion Recognition
-基于Wav2Vec2和RoBERTa的多模态情感识别模型
-"""
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
