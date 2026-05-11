@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-"""
-Evaluate per-class accuracy on the MELD test set for baseline and enhanced MMER checkpoints.
-"""
 
 import argparse
 import os
