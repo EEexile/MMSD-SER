@@ -246,7 +246,7 @@ def train_meld(output_dir, seed=42):
     roberta_path = 'roberta-base'    # 替换为你的本地路径
     
     batch_size = 16
-    learning_rate = 1e-5
+    learning_rate = 5e-5
     epochs = 5
     lambda_ctc = 0.5
     lambda_cl = 0.3  
