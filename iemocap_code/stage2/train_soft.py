@@ -367,7 +367,7 @@ def main():
     parser.add_argument('--lambda_cl', type=float, default=0.01)      
     
     # [修改] 增加 lambda_bt_cons 参数
-    parser.add_argument('--lambda_bt_cons', type=float, default=0.0) 
+    parser.add_argument('--lambda_bt_cons', type=float, default=0.01) 
     
     parser.add_argument('--alpha_soft', type=float, default=0.5)
     parser.add_argument('--distill_temperature', type=float, default=4.0)
