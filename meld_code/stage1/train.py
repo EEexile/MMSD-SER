@@ -247,7 +247,7 @@ def train_meld(output_dir, seed=42):
     
     batch_size = 16
     learning_rate = 5e-5
-    epochs = 5
+    epochs = 60
     lambda_ctc = 0.5
     lambda_cl = 0.3  
     use_contrastive = True
